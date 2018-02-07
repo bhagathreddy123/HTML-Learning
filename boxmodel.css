@@ -1,0 +1,20 @@
+p
+{
+	/* content - width and height */
+	width: 50%;
+
+	/*Border*/
+	border: 2px solid blue;
+	/*Padding*/
+	padding: 20px;
+	/*padding-left: 45px;*/
+	/*Margin*/
+	/*margin: 90px;*/
+	/*margin-top: 56px;*/
+	/*we can give 4 sides of margin */
+	/*margin: 23px 34px 43px 22px;*/
+	/*we can give size as like this also */
+	/*margin: 0 auto;*/
+	margin: 40px 30px;
+
+}
