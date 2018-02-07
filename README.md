@@ -26,3 +26,25 @@ keep on writing the same code againg and again. duplication. it's waste of time.
 
 css need to write separate file and link into in html file.
 
+
+attribute selectors:
+
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+input[type="checkbox"] {
+	background: blue;
+}
+
+nth of type:
+
+li:nth-of-type(3) {
+	background: purple;
+}
+
+
+adjacent selector:
+ h4 + ul {
+ 	border: 4px solid red;
+ }

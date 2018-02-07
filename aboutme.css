@@ -1,3 +1,10 @@
 h1 {
 	color: green;
 }
+
+.completed {
+	text-decoration:  line-through;
+}
+body {
+	background: #bdc3c7;
+}
