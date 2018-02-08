@@ -52,3 +52,5 @@ adjacent selector:
  beconipsum.com
 
  https://www.cssfontstack.com/
+
+ google.com/fonts
