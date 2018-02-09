@@ -9,7 +9,7 @@ var firstName = prompt("enter your First Name");
 var lastName = prompt("enter your Last Name");
 var userAge = prompt("enter your Age");
 
+var fullName = firstName + "" + lastName;
 
-
-console.log("Your Full Name is " + firstName  + "" + lastName); 
+console.log("Your Full Name is " + fullName); 
 console.log("your age is" +userAge);
