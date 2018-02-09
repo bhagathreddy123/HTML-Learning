@@ -56,3 +56,9 @@ adjacent selector:
  google.com/fonts
 
  baconipsum.com
+
+
+ if include  a javascript file inside html with wrong name  using script tag when enter the url in  browser we will see in broser console  initiator the file name. 
+
+ net::ERR_FILE_NOT_FOUND.
+
