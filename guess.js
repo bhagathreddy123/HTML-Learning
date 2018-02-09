@@ -1,18 +1,8 @@
-var secretNumber = 7;
-var guessNumber = Number(prompt('enter a Number?'));
-
-if (guessNumber > secretNumber )
+var count = 2;
+while(count < 8)
 {
-	alert("your entered number is too high");
-}
+	//alert( "count is" +count);
+	console.log("count is:" +count);
+	count = count + 1;
 
-else if (guessNumber < secretNumber)
-{
-	alert("your entered number is too low");
-
-}
-
-else 
-{
-	alert("your entered number is Correct" +guessNumber);
 }
