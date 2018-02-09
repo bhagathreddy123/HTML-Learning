@@ -1,6 +1,0 @@
-/*var userName = window.prompt('enter your Name');*/
-var userName = prompt('enter your Name');
-
-/*alert(userName);*/
-alert("Nice to see you."  + userName);
-console.log("Nice to see You" + userName);
