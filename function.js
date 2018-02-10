@@ -44,7 +44,32 @@
 // }
 
 
-function kebabToSnake(str) {
-	var newStr = str.replace(/-/, "_");
-	return newStr
+// function kebabToSnake(str) {
+// 	var newStr = str.replace(/-/, "_");
+// 	return newStr
+// }
+
+
+function sing() {
+	console.log("Rahul");
+	console.log("dravid");
 }
+
+sing();
+
+// setInterval(anotherFunc, interval)
+setInterval(sing,1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
