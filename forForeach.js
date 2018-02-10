@@ -1,13 +1,14 @@
-var colours = ["red","green","yellow","orange"];
+var todos = ['preparing dinner'];
 
-// console.log(colours[1]);
+var input = prompt("what would you like to do?");
 
-// for(i=0; i<colours.length; i++)
-// {
-// 	console.log(colours[i]);
-// }
-
-
-colours.forEach(function(colour){
-	console.log(colour);
-});
+while(input !== "quit") {
+	if(input === "list") {
+		console.log(todos);
+	} else if(input === "new") {
+		var newTodo = prompt("Enter new todo");
+		todos.push(newTodo);
+	}
+	input = prompt("What would you like to do?");
+}
+console.log("Ok, You Quit the app")
